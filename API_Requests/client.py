@@ -31,3 +31,10 @@ def list_products():
 add_product("Laptop", "A high-performance laptop", 899.99)
 add_product("Samsung", "A powerful smartphone", 699.99)
 list_products()
+
+
+#POST /products:
+#JSON can create a product.
+#Responds with 201 Created for success or 400 Bad Request for validation errors.
+#GET /products:
+#Returns a JSON list of all products.
